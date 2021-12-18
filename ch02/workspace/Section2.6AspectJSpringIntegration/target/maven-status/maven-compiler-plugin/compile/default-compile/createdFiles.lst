@@ -1,0 +1,5 @@
+ajia\security\AuthenticationException.class
+ajia\main\Main.class
+ajia\security\SecurityAspect.class
+ajia\messaging\MessageCommunicator.class
+ajia\security\Authenticator.class

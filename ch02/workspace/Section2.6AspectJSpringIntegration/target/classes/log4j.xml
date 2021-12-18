@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+   <Appenders>
+      <Console name="console" target="SYSTEM_OUT">
+         <PatternLayout pattern="%x%m%n"/>
+      </Console>
+   </Appenders>
+   <Loggers>
+      <!-- Application Logger -->
+      <Logger name="ajia" level="warn"/>
+
+      <!--  Spring framework Loggers -->
+      <Logger name="org.springframework" level="warn"/>
+
+      <Logger name="org.springframework.aop" level="info"/>
+
+      <Logger name="org.springframework.beans" level="warn"/>
+
+      <Logger name="org.springframework.jdbc" level="warn"/>
+
+      <Logger name="org.springframework.transaction" level="warn"/>
+
+      <Logger name="org.springframework.orm" level="warn"/>
+
+      <Logger name="org.springframework.web" level="warn"/>
+
+      <Logger name="org.springframework.webflow" level="warn"/>
+
+      <!-- Hibernate Loggers -->
+      <Logger name="org.hibernate" level="warn"/>
+
+      <Logger name="org.hibernate.transaction" level="warn"/>
+
+      <!-- Tracing -->
+      <Logger name="ajia.tracing" level="info"/>
+
+      <!-- Root Logger -->
+      <Root level="warn">
+         <AppenderRef ref="console"/>
+      </Root>
+   </Loggers>
+</Configuration>
