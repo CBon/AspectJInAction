@@ -14,5 +14,5 @@
 source ../../../setHomes.sh
 source ../../../setEnvironment.sh
 cd src/main/java
-ajc -source 5 ajia/messaging/MessageCommunicator.java ajia/main/Main.java ajia/security/SecurityAspect.aj ajia/security/*.java
+ajc -source 16 ajia/messaging/MessageCommunicator.java ajia/main/Main.java ajia/security/SecurityAspect.aj ajia/security/*.java
 java ajia.main.Main
